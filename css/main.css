@@ -1,49 +1,60 @@
 html{
-    background-color:red;
+    background-color:#0000b2;
     background-size:cover;
 }
 
 
 body {
+    color:#00cc7a;
     margin: 60px auto;
-    width: 70%;
+    width: 100%;
+    max-width:100%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
+
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 100px;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color:black;
 }
 a:hover {
-    text-decoration: underline: bold;
+    text-decoration: bold
+    color: red;
     
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Brush Script MT",cursive;
+    text-align:center;
 }
-p {
+
+div.php-image{
+    clear:left;
+    padding:5px;
+}
+div.intro{
+    clear:right;
+    font-family: "Brush Script MT",cursive;
+    text-align:left;
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
-    display:center;
+}
+a .email{
+    text-decoration:bold;
+}
+
 }
 footer {
-    border-top: 5px solid #d5d5d5;
-    font-size: .8em;
+    border-top: 2px solid #000000;
+    font-size: 1em;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 ul.posts li {
