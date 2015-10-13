@@ -1,102 +1,131 @@
 html{
-    background-color:#0000b2;
+    background-color:#d32f2f;
     background-size:cover;
+    font-size: 18px;
+    font-family:'arvo',serif ;
+    font-color:black;
+}
+header {
+    background: #64B5F6;
+    text-align:center;
+    font-family: 'Arvo',serif;
+    margin-top: -25px;
+    padding:25px;
+
+
 }
 
-
 body {
-    color:#00cc7a;
+    
     margin: 60px auto;
     width: 100%;
     max-width:100%;
 }
 
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 100px;
-}
+
 a {
     text-decoration: none;
     color:black;
 }
 a:hover {
-    text-decoration: bold
+    text-decoration: none;
     color: red;
     
 }
-h1 {
-    font-size: 3em;
-    font-family: "Brush Script MT",cursive;
-    text-align:center;
-}
 
-div.php-image{
+
+   
+
+div .php-image{
     float:left;
-    padding:5px;
+    padding:40px;
     width:50%;
     clear:both;
+    text-align: center;
 
 }
 div.intro{
     float:left;
     width:50%;
-    font-family: "Brush Script MT",cursive;
+    font-family: 'arvo',serif;
     text-align:left;
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
     clear:both;
+    color: black;
 }
 a .email{
     text-decoration:bold;
 }
 
-}
 footer {
     border-top: 2px solid #000000;
-    font-size: 1em;
+    font-size: 1rem;
+    clear:both;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 2em;
+    display: inline;
 }
 
 ul.posts li {
     list-style: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container {
+    max-width: 1020px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    zoom: 1;
 
 }
+
+
+
+
+.columns:first-child {
+    margin-left: 0;
+}
+.columns {
+    float: left;
+    display: block;
+    margin-left: 1.5%;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
