@@ -1,0 +1,11 @@
+added lanes - see example layout for useage
+added normalize
+added reset for image and ul at top of main.css
+--images will now only ever be able to be the max-width of its parent, rather than breaking out.
+added a media query for container on mobiles
+--will add some padding to the container
+removed some old CSS, somethings like text-align only needs to be on the parent
+added images folder and put image inside
+--this means it doesnt have to rely on it being hosted elsewhere
+
+any questions let me know!
